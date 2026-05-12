@@ -1,2 +1,27 @@
-# fp2mp
-From Prompt 2 Master Plan: Towards Solving Ill-Defined Problems with LLM-MAS
+# FP2MP
+
+This repository contains the experimental evidence and serves as the entry point for our paper:
+
+> **From Prompt 2 Master Plan: Towards Solving Ill-Defined Problems with LLM-MAS**
+
+## Purpose
+
+The main goals of this repository are:
+
+- Provide the implementation of the instruments used in the study.
+- Provide the main experimental setup and data.
+
+## Related Repositories
+
+The FP2MP project is organized across several repositories:
+
+- **[fp2mp-core]()** – The core MAS-LLM approach for solving ill-defined problems.
+- **[fp2mp-eval](https://github.com/vasilstar97/fp2mp-eval)** – Evaluation framework for assessing solution quality for ill-defined tasks.
+- **[fp2mp-baselines](https://github.com/Mvin8/fp2mp-baselines)** – Implementation of the baselines used in the experiments.
+
+## Environment Variables
+
+To work with this repository and the related ones, you need to define certain variables in a `.env` file. Use [.env.example](.env.example) as a reference:
+
+- `FP2MP_CHAT_URL` – OpenAI-compatible API URL.
+- `FP2MP_API_KEY` – API key for the above endpoint.
