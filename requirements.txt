@@ -1,0 +1,3 @@
+git+https://github.com/Eynor-Systems/fp2mp-core
+git+https://github.com/vasilstar97/fp2mp-eval
+git+https://github.com/Mvin8/fp2mp-baselines
