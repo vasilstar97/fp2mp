@@ -15,7 +15,7 @@ The main goals of this repository are:
 
 The FP2MP project is organized across several repositories:
 
-- **[fp2mp-core](https://github.com/Eynor-Systems/FP2MP_system)** – The core MAS-LLM approach for solving ill-defined problems.
+- **[fp2mp-core](https://github.com/Eynor-K/fp2mp-core)** – The core MAS-LLM approach for solving ill-defined problems.
 - **[fp2mp-eval](https://github.com/vasilstar97/fp2mp-eval)** – Evaluation framework for assessing solution quality for ill-defined tasks.
 - **[fp2mp-baselines](https://github.com/Mvin8/fp2mp-baselines)** – Implementation of the baselines used in the experiments.
 
